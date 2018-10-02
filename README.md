@@ -24,5 +24,5 @@ echo $nmanipulate->getManipulate();
 Response yang akan diberikan
 
 ```json
-[{"targets":0,"createdCell":function(td, cellData, rowData, row, col) {$(td).attr("data-field","_id");}}];
+{"targets":2,"createdCell":function(td, cellData, rowData, row, col) {$(td).attr("data-field","_id");}}
 ```
